@@ -12,9 +12,9 @@ void setup() {
   PImage waldo = loadImage("waldo.jpg"); // Change this to match your file name.
   size(600, 400); 
   // Resize your waldo picture to the same size as the sketch
-  
+   waldo.resize(600,400);
   // Make the waldo image your sketch background
-
+background(waldo);
 }
 
 void draw() {
